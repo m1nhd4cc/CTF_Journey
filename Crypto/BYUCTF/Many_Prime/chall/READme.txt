@@ -1,0 +1,1 @@
+Nằm sâu bên trong là một bí ẩn – điều đặc biệt là N không phải một số nguyên tố, nhưng chứa rất nhiều thừa số nguyên tố (many primeeee)
