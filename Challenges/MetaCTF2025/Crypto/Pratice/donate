@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>Donate [mingw-w64]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="donate"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="mingw-w64"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/doku.php/donate?do=index" title="Sitemap"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/doku.php/donate?do=export_xhtml"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="/doku.php/donate?do=export_raw"/>
+<link rel="canonical" href="http://mingw-w64.org/doku.php/donate"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=ramtop&amp;tseed=1db62fb83ba41e6ee937eeb71621c2eb"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='';var JSINFO = {"id":"donate","namespace":""};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/jquery.php?tseed=23f888679b4f1dc26eef34902aca964f"></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?t=ramtop&amp;tseed=1db62fb83ba41e6ee937eeb71621c2eb"></script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/ramtop/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/ramtop/images/apple-touch-icon.png" />
+    <style> 
+  <!--
+    th, td {
+      border-width: 1px;
+      border-style: solid;
+    }
+    td {
+      vertical-align: middle;
+    }
+    div#dwpl-ti-container div.dwpl-ti-content-box {
+      overflow: auto;
+    }
+    @media only screen and (min-width: 50em) {
+      #dokuwiki__site {
+        max-width: 100em;
+      } 
+    }
+    .spoiler {
+      margin-top: 0em;
+      margin-bottom: 0em;
+    }
+    .spoiler .title {
+      font-size: 100%;
+      font-weight: normal;
+    }
+  -->
+</style>
+</head>
+
+<body>
+    <!--[if lte IE 7 ]><div id="IE7"><![endif]--><!--[if IE 8 ]><div id="IE8"><![endif]-->
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_show tpl_ramtop   hasMenubar showMenubar ">
+        <header>
+            <div id="logo"><a href="/doku.php/start" ><img src="/lib/exe/fetch.php/logo.png" alt="mingw-w64" /></a></div>
+            <h1><a href="/doku.php/start"  accesskey="h" title="[H]">mingw-w64</a></h1>
+            <p class="claim">GCC for Windows 64 & 32 bits</p>
+        </header>
+        <nav class="menubar"><div class="content">
+        <!-- menubar start -->
+<p>
+<a href="/doku.php/download" class="media" title="download"><img src="/lib/exe/fetch.php/download-green.png" class="media" title="Download sources and binaries" alt="Download sources and binaries" /></a><a href="/doku.php/download" class="wikilink1" title="download">Downloads</a> •
+<a href="/doku.php/documentation" class="media" title="documentation"><img src="/lib/exe/fetch.php/chat-blue.png" class="media" title="Read the documentation" alt="Read the documentation" /></a><a href="/doku.php/documentation" class="wikilink1" title="documentation">Documentation</a> •
+<a href="/doku.php/support" class="media" title="support"><img src="/lib/exe/fetch.php/help-purple.png" class="media" title="Get support" alt="Get support" /></a><a href="/doku.php/support" class="wikilink1" title="support">Support</a> •
+<a href="/doku.php/contribute" class="media" title="contribute"><img src="/lib/exe/fetch.php/upload-blue.png" class="media" title="Contribute to the project" alt="Contribute to the project" /></a><a href="/doku.php/contribute" class="wikilink1" title="contribute">Contribute</a> •
+<a href="/doku.php/donate" class="media" title="donate"><img src="/lib/exe/fetch.php/money.png" class="media" title="Donate to the project" alt="Donate to the project" /></a><a href="/doku.php/donate" class="wikilink1" title="donate">Donate</a>
+</p>
+        <!-- menubar end -->
+        </div></nav>
+        
+        <div class="wrapper group">
+            <div id="dokuwiki__content"><div class="pad group">
+                <div class="page group">
+                <!-- wikipage start -->
+<!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#non-financial_contributions">Non-financial contributions</a></div></li>
+<li class="level1"><div class="li"><a href="#donations">Donations</a></div></li>
+<li class="level1"><div class="li"><a href="#hardware_donations">Hardware donations</a></div></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="donate">Donate</h1>
+<div class="level1">
+
+<p>
+Mingw-w64 is almost entirely made by volunteer. Only two employees are paid to contribute to mingw-w64 and even then it&#039;s not full-time: we estimate the paid time spent on the project matches 0.5-employee. All other contributions are done on free time.
+</p>
+
+<p>
+There are many evolutions and features planned but resources are scarce. In particular, if mingw-w64 saves you from the steep cost of proprietary toolchains, think about contributing a bit; you will also most likely quickly benefit from the improvements.
+</p>
+
+</div>
+
+<h2 class="sectionedit2" id="non-financial_contributions">Non-financial contributions</h2>
+<div class="level2">
+
+<p>
+More than through money, the best way to help the project is to invest man-time in it. The list of tasks on the <a href="http://mingw-w64.sourceforge.net/contribute.php" class="urlextern" title="http://mingw-w64.sourceforge.net/contribute.php" rel="nofollow">page about contributing</a> is the best place to start and if you are an employer with trainees, several of these tasks will make good internship.
+</p>
+
+</div>
+
+<h2 class="sectionedit3" id="donations">Donations</h2>
+<div class="level2">
+
+<p>
+With the current organization and funds of mingw-w64, it wouldn&#039;t make sense to try to pay a developer to spend time on specific topics. Instead, the money will be spent on hardware (testing servers, Windows licenses, phone, tablets, …) and meeting expenses (setting up hackatons and paying for travel expenses as some major mingw-w64 developers live very far from others).
+</p>
+
+<p>
+Currently, only Paypal is available:
+</p>
+
+<p>
+<a href="https://sourceforge.net/donate/index.php?group_id=202880" class="urlextern" title="https://sourceforge.net/donate/index.php?group_id=202880" rel="nofollow">Paypal (to Kaï Tietz)</a>
+</p>
+
+<p>
+Below is a list of donors, starting from January 2015. We&#039;d like to list all our donors but we value your wishes; please state whether you&#039;d like to have your name, pseudonym or company on the website.
+</p>
+<ul>
+<li class="level1"><div class="li"> James Beard</div>
+</li>
+<li class="level1"><div class="li"> <a href="https://www.wsoptics.com/" class="urlextern" title="https://www.wsoptics.com/" rel="nofollow">WSoptics GmbH</a></div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit4" id="hardware_donations">Hardware donations</h2>
+<div class="level2">
+
+<p>
+There is no facility at the moment to receive hardware. These donations will have to be handled on a case-by-case basis (mostly to decide where to ship).
+</p>
+
+</div>
+
+
+                <!-- wikipage stop -->
+                </div>
+            </div></div>
+
+            <hr class="a11y" />
+
+            <!-- page actions -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Page Tools</h3>
+                <div class="tools">
+                    <ul>
+                        <li><a href="/doku.php/donate?do=edit"  class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]"><span>Show pagesource</span></a></li><li><a href="/doku.php/donate?do=revisions"  class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]"><span>Old revisions</span></a></li><li><a href="/doku.php/donate?do=backlink"  class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <nav class="footer_actions_left">[&#160;<a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]">Back to top</a>&#160;|&#160;<a href="/doku.php/donate?do=index"  class="action index" accesskey="x" rel="nofollow" title="Sitemap [X]">Sitemap</a>&#160;]</nav>
+
+            <nav class="footer_actions_right">[&#160;<a href="/doku.php/donate?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a>&#160;]</nav>
+            <div class="clearer"></div>
+            <div class="licence"><div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" class="urlextern">CC Attribution-Share Alike 4.0 International</a></bdi></div></div>
+            
+        </footer>
+    </div></div>
+
+    <div class="no"><img src="/lib/exe/indexer.php?id=donate&amp;1614709565" width="2" height="1" alt="" /></div>
+    <div id="screen__mode" class="no"></div>    <!--[if ( lte IE 7 | IE 8 ) ]></div><![endif]-->
+</body>
+</html>

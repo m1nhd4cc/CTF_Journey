@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>Downloads [mingw-w64]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="download"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="mingw-w64"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/doku.php/download?do=index" title="Sitemap"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/doku.php/download?do=export_xhtml"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="/doku.php/download?do=export_raw"/>
+<link rel="canonical" href="http://mingw-w64.org/doku.php/download"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=ramtop&amp;tseed=1db62fb83ba41e6ee937eeb71621c2eb"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='';var JSINFO = {"id":"download","namespace":""};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/jquery.php?tseed=23f888679b4f1dc26eef34902aca964f"></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?t=ramtop&amp;tseed=1db62fb83ba41e6ee937eeb71621c2eb"></script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/ramtop/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/ramtop/images/apple-touch-icon.png" />
+    <style> 
+  <!--
+    th, td {
+      border-width: 1px;
+      border-style: solid;
+    }
+    td {
+      vertical-align: middle;
+    }
+    div#dwpl-ti-container div.dwpl-ti-content-box {
+      overflow: auto;
+    }
+    @media only screen and (min-width: 50em) {
+      #dokuwiki__site {
+        max-width: 100em;
+      } 
+    }
+    .spoiler {
+      margin-top: 0em;
+      margin-bottom: 0em;
+    }
+    .spoiler .title {
+      font-size: 100%;
+      font-weight: normal;
+    }
+  -->
+</style>
+</head>
+
+<body>
+    <!--[if lte IE 7 ]><div id="IE7"><![endif]--><!--[if IE 8 ]><div id="IE8"><![endif]-->
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_show tpl_ramtop   hasMenubar showMenubar ">
+        <header>
+            <div id="logo"><a href="/doku.php/start" ><img src="/lib/exe/fetch.php/logo.png" alt="mingw-w64" /></a></div>
+            <h1><a href="/doku.php/start"  accesskey="h" title="[H]">mingw-w64</a></h1>
+            <p class="claim">GCC for Windows 64 & 32 bits</p>
+        </header>
+        <nav class="menubar"><div class="content">
+        <!-- menubar start -->
+<p>
+<a href="/doku.php/download" class="media" title="download"><img src="/lib/exe/fetch.php/download-green.png" class="media" title="Download sources and binaries" alt="Download sources and binaries" /></a><a href="/doku.php/download" class="wikilink1" title="download">Downloads</a> •
+<a href="/doku.php/documentation" class="media" title="documentation"><img src="/lib/exe/fetch.php/chat-blue.png" class="media" title="Read the documentation" alt="Read the documentation" /></a><a href="/doku.php/documentation" class="wikilink1" title="documentation">Documentation</a> •
+<a href="/doku.php/support" class="media" title="support"><img src="/lib/exe/fetch.php/help-purple.png" class="media" title="Get support" alt="Get support" /></a><a href="/doku.php/support" class="wikilink1" title="support">Support</a> •
+<a href="/doku.php/contribute" class="media" title="contribute"><img src="/lib/exe/fetch.php/upload-blue.png" class="media" title="Contribute to the project" alt="Contribute to the project" /></a><a href="/doku.php/contribute" class="wikilink1" title="contribute">Contribute</a> •
+<a href="/doku.php/donate" class="media" title="donate"><img src="/lib/exe/fetch.php/money.png" class="media" title="Donate to the project" alt="Donate to the project" /></a><a href="/doku.php/donate" class="wikilink1" title="donate">Donate</a>
+</p>
+        <!-- menubar end -->
+        </div></nav>
+        
+        <div class="wrapper group">
+            <div id="dokuwiki__content"><div class="pad group">
+                <div class="page group">
+                <!-- wikipage start -->
+
+<h1 class="sectionedit1" id="downloads">Downloads</h1>
+<div class="level1">
+
+<p>
+The heart of the Mingw-w64 project is headers and support libraries to run the output of GCC on Windows. Since Mingw-w64 is neither the home of GCC nor of binutils, several sets of installation packages which combine them are available.
+</p>
+
+<p>
+In addition, the sources are available but most people will want to grab binaries directly..
+</p>
+
+</div>
+
+<h2 class="sectionedit2" id="pre-built_toolchains_and_packages">Pre-built toolchains and packages</h2>
+<div class="level2">
+<div class="exttab">
+<table>
+	<tr>
+		<th>
+		</th>
+		<th>
+ Version		</th>
+		<th>
+ Host		</th>
+		<th>
+ GCC / Mingw-w64 Version		</th>
+		<th>
+ Languages		</th>
+		<th>
+ Additional Software in Package Manager		</th>
+	</tr>
+	<tr>
+		<td style="text-align:center;">
+  <strong><a href="/doku.php/download/arch-linux" class="media" title="download:arch-linux"><img src="/lib/exe/fetch.php/download/archlinux-logo.png?w=32&amp;tok=f16bc2" class="mediacenter" title="Arch Linux logo" alt="Arch Linux logo" width="32" /></a><a href="/doku.php/download/arch-linux" class="wikilink1" title="download:arch-linux"> Arch Linux</a></strong>		</td>
+		<td colspan="2">
+ Arch Linux		</td>
+		<td>
+ <a href="https://aur.archlinux.org/packages/mingw-w64-gcc/" class="urlextern" title="https://aur.archlinux.org/packages/mingw-w64-gcc/" rel="nofollow">8.2.0</a>/<a href="https://aur.archlinux.org/packages/mingw-w64-crt/" class="urlextern" title="https://aur.archlinux.org/packages/mingw-w64-crt/" rel="nofollow">5.0.4</a>		</td>
+		<td>
+Ada, C, C++, Fortran, Obj-C, Obj-C++		</td>
+		<td>
+
+</div>
+<div class="plugin_include_content plugin_include__download:arch-linux:list">
+<div class="level4">
+<div class="spoiler"><div class="title">305, full list</div><input type="button" value="Show" onClick="c = this.parentNode.getElementsByTagName('div')[1]; if (this.value == 'Show') { c.style.display = ''; this.value = 'Hide' } else { c.style.display = 'none'; this.value = 'Show' }" /><div class="content" style="display: none"><span style="font-size: 0.7em">admesh, agrum, allegro, alure, angleproject, apr, apr-util, aquila, asmjit, assimp, atk, atkmm, blas, boost, boost-python, box2d, bullet, bzip2, c-ares, cairo, cairomm, cal3d, cblas, celt, cgal, chipmunk, clang, clanlib, cmake, cminpack, coin-clp, coin-hg, coin-osi, coin-utils, confuse, corrade, cppnanomsg, cppunit, csfml, curl, d0_blind_id, db, dbus, dbus-glib, dlfcn, dlib, dumb, eigen, enca, enet, expat, f2c, fann, ffmpeg, fftw, flac, flann, fltk, fontconfig, freealut, freeglut, freeimage, freetype, fribidi, ftgl, gc, gconf, gdb, gdbm, gdc, gdk-pixbuf2, gettext, gf2x, giflib, glew, glfw, glib-networking, glib2, glibmm, glm, gmp, gmqcc, gnome-themes-standard, gnutls, goocanvas, gsl, gsm, gst-plugins-base, gst-plugins-good, gstreamer, gtest, gtk2, gtk3, gtkglext, gtkmm, gtkmm3, gtksourceview2, gtksourceview3, harfbuzz, hdf5, hidapi, icu, id3lib, iistaskpanel, ilmbase, intel-tbb, irrlicht, isl, jasper, json-c, json-glib, jsoncpp, kissfft, lame, lapack, lapackpp, lcms, lcms2, levmar, libarchive, libass, libassuan, libbluray, libconfig, libcroco, libcsv, libdvdcss, libdxfrw, libevent, libexif, libffi, libfplll, libftdi, libgcrypt, libgee, libglade, libgnurx, libgpg-error, libgtksourceviewmm2, libharu, libiconv, libidn, libjpeg, libjpeg-turbo, libltdl, libmad, libmariadbclient, libmikmod, libmodbus, libmodplug, libmpc, libmspack, libmysqlclient, libodbc++, libogg, libopencl, libpng, libpqxx, librsvg, libsigc++, libsndfile, libsodium, libsquish, libssh2, libsvm, libtasn1, libtheora, libtiff, libuecc, libunicows, libunistring, libusb, libvidstab, libvorbis, libvpx, libwebp, libxdiff, libxml++, libxml2, libxr, libxslt, libyaml, libzip, llvm-libs, log4c, lua, lua51, lzo2, matio, microhttpd, mini18n, mixmod, mman-win32, mpfr, mruby, msgpack, muparser, nanomsg, nettle, nlopt, nsis, nspr, nvidia-cg-toolkit, oclp, ode, oglimg, oglp, ois, onig, openal, openblas, openblas-lapack, opencl-headers, opencore-amr, openctm, opencv, openexr, openjpeg, openjpeg2, openssl, optpp, opus, orc, pango, pangomm, pcre, pdcurses, physfs, pixman, pkg-config, plibc, polyclipping, poppler, portaudio, postgresql-libs, ppl, proj, protobuf, pthreads, python, python2, qcustomplot-qt5, qhull, qrencode, qscintilla, qsint, qt4, qt4pas, qt5, quazip-qt4, quazip-qt5, qwt, qwt-qt5, qwt5, qxorm, readline, recode, resource, rtmpdump, ruby, schroedinger, sdl, sdl2, serf, sfgui, sfml, smpeg, smpeg2, smtpclient-qt5, soil, sparsehash, speex, spheresim, sqlite, stormlib, taglib, tcl, termcap, tinyxml, tk, tools, tox, unshield, uriparser, utf8-cpp, vala, venom, vtk, wavpack, win-iconv, winpthreads, wxmsw, wxmsw-static, wxmsw2.8, x264, x265, xalan-c, xerces-c, xvidcore, xz, yaml-cpp, yaml-cpp-hg, zeromq, zlib, zziplib</span></div></div>
+</div>
+</div>
+<div class="level2">
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;">
+  <strong><a href="/doku.php/download/cygwin" class="media" title="download:cygwin"><img src="/lib/exe/fetch.php/download/cygwin-logo.png?w=32&amp;tok=7d11c1" class="mediacenter" title="Cygwin logo" alt="Cygwin logo" width="32" /></a><a href="/doku.php/download/cygwin" class="wikilink1" title="download:cygwin"> Cygwin</a></strong>		</td>
+		<td>
+Rolling		</td>
+		<td>
+Windows <img src="/lib/exe/fetch.php/download/windows-logo.jpg?w=24&amp;tok=c593de" class="media" title="Windows Logo" alt="Windows Logo" width="24" />		</td>
+		<td>
+5.4.0/5.0.2		</td>
+		<td>
+Ada, C, C++, Fortran, Obj-C		</td>
+		<td>
+5 (bzip2, libgcrypt, libgpg-error, minizip, xz, zlib)		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;" rowspan="4">
+  <strong><a href="/doku.php/download/debian" class="media" title="download:debian"><img src="/lib/exe/fetch.php/download/debian-openlogo-nd-25.png?w=32&amp;tok=83e686" class="mediacenter" title="Debian logo" alt="Debian logo" width="32" /></a><a href="/doku.php/download/debian" class="wikilink1" title="download:debian"> Debian</a></strong>		</td>
+		<td colspan="2">
+Debian 7 (Wheezy)		</td>
+		<td>
+ 4.6.3/2.0.3		</td>
+		<td rowspan="4">
+Ada, C, C++, Fortran, Obj-C, Obj-C++, OCaml		</td>
+		<td rowspan="2">
+2 (gdb, nsis)		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+Debian 8 (Jessie)		</td>
+		<td>
+ 4.9.1/3.2.0		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+Debian 9 (Stretch)		</td>
+		<td>
+ 6.3.0/5.0.0		</td>
+		<td rowspan="2">
+9 (gdb, libassuan, libgcrypt, libgpg-error, libksba, libnpth, nsis, win-iconv, zlib)		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+Debian 10 (Buster)		</td>
+		<td>
+ 8.3.0/6.0.0		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;">
+  <strong><a href="/doku.php/download/fedora" class="media" title="download:fedora"><img src="/lib/exe/fetch.php/download/fedora-logo.png?w=32&amp;tok=399d0f" class="mediacenter" title="Fedora Linux logo" alt="Fedora Linux logo" width="32" /></a><a href="/doku.php/download/fedora" class="wikilink1" title="download:fedora"> Fedora</a></strong>		</td>
+		<td colspan="2">
+Fedora 19		</td>
+		<td>
+ 4.8.1/?		</td>
+		<td>
+Ada, C, C++, Fortran, Obj-C, Obj-C++		</td>
+		<td>
+
+</div>
+<div class="plugin_include_content plugin_include__download:fedora:list">
+<div class="level4">
+<div class="spoiler"><div class="title">149, full list</div><input type="button" value="Show" onClick="c = this.parentNode.getElementsByTagName('div')[1]; if (this.value == 'Show') { c.style.display = ''; this.value = 'Hide' } else { c.style.display = 'none'; this.value = 'Show' }" /><div class="content" style="display: none"><span style="font-size: 0.7em">angleproject antlr atk atkmm binutils boost bzip2 cairo cairomm celt051 clucene cppunit curl cximage cxxtest dbus dbus-glib dirac dlfcn eigen3 enchant expat fftw fontconfig freeglut freetype ftplib GConf2 gdb gdbm gdk-pixbuf gettext giflib glew glib2 glibmm24 glib-networking gmp gnutls goocanvas2 gsl gstreamer gstreamer1 gstreamer1-plugins-{base,bad-free} gstreamer-plugins-{base,good} gtk2 gtk3 gtkglext gtkhtml3 gtkmm24 gtkmm30 gtksourceview3 gtkspell3 gtkspellmm30 gtk-vnc harfbuzz hunspell icu jasper lcms lcms2 leptonica libarchive libffi libgcrypt libgeotiff libglade2 libglademm24 libgnurx libgpg-error libgsf libidn libjpeg-turbo libltdl libogg liboil libosinfo libp11 libpng libsigc++20 libsigsegv libsoup libsqlite3x libssh2 libtasn1 libtiff libusbx libvirt libvirt-glib libvorbis libwebp libxml++ libxml2 libxslt libzip llvm matahari nettle nsis openjpeg opensc openssl orc p11-kit pango pangomm pcre pdcurses pixman pkg-config plotmm polyclipping poppler portablexdr postgresql proj qpid-cpp qt qt5 qwt readline sane-backends SDL SDL_image SDL_mixer shapelib sigar spice-gtk spice-protocol sqlite srvany tcl termcap tesseract tk usbredir w64-tools webkitgtk webkitgtk3 wine-gecko win-iconv winpthreads winstorecompat wpcap wxWidgets xerces-c xz zfstream zlib</span></div></div>
+</div>
+</div>
+<div class="level2">
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;">
+  <strong><a href="/doku.php/download/macports" class="media" title="download:macports"><img src="/lib/exe/fetch.php/download/macports-logo.png?w=32&amp;tok=a46873" class="mediacenter" title="MacPorts logo" alt="MacPorts logo" width="32" /></a><a href="/doku.php/download/macports" class="wikilink1" title="download:macports"> MacPorts</a></strong>		</td>
+		<td>
+Rolling		</td>
+		<td>
+macOS <img src="/lib/exe/fetch.php/download/macos-logo.png?w=42&amp;tok=2c4f0e" class="media" title="macOS Logo" alt="macOS Logo" width="42" />		</td>
+		<td>
+ <a href="https://github.com/macports/macports-ports/blob/master/cross/x86_64-w64-mingw32-gcc/Portfile" class="urlextern" title="https://github.com/macports/macports-ports/blob/master/cross/x86_64-w64-mingw32-gcc/Portfile" rel="nofollow">8.2.0</a>/<a href="https://github.com/macports/macports-ports/blob/master/cross/mingw-w64/Portfile" class="urlextern" title="https://github.com/macports/macports-ports/blob/master/cross/mingw-w64/Portfile" rel="nofollow">5.0.4</a>		</td>
+		<td>
+C, C++, Fortran, Obj-C, Obj-C++		</td>
+		<td>
+1 (nsis)		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;">
+  <strong><a href="/doku.php/download/mingw-builds" class="wikilink1" title="download:mingw-builds">MingW-W64-builds</a></strong>		</td>
+		<td>
+Rolling		</td>
+		<td>
+Windows <img src="/lib/exe/fetch.php/download/windows-logo.jpg?w=24&amp;tok=c593de" class="media" title="Windows Logo" alt="Windows Logo" width="24" />		</td>
+		<td>
+7.2.0/5.0.3		</td>
+		<td>
+C, C++, Fortran		</td>
+		<td>
+4 (gdb, libiconf, python, zlib)		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;">
+  <strong><a href="/doku.php/download/msys2" class="media" title="download:msys2"><img src="/lib/exe/fetch.php/download/msys2-logo.png?w=32&amp;tok=28af9c" class="mediacenter" title="Msys2 logo" alt="Msys2 logo" width="32" /></a><a href="/doku.php/download/msys2" class="wikilink1" title="download:msys2"> Msys2</a></strong>		</td>
+		<td>
+Rolling		</td>
+		<td>
+Windows <img src="/lib/exe/fetch.php/download/windows-logo.jpg?w=24&amp;tok=c593de" class="media" title="Windows Logo" alt="Windows Logo" width="24" />		</td>
+		<td>
+<a href="https://github.com/Alexpux/MINGW-packages/blob/master/mingw-w64-gcc/PKGBUILD" class="urlextern" title="https://github.com/Alexpux/MINGW-packages/blob/master/mingw-w64-gcc/PKGBUILD" rel="nofollow">9.2.0</a>/<a href="https://github.com/Alexpux/MINGW-packages/blob/master/mingw-w64-crt-git/PKGBUILD" class="urlextern" title="https://github.com/Alexpux/MINGW-packages/blob/master/mingw-w64-crt-git/PKGBUILD" rel="nofollow">trunk</a>		</td>
+		<td>
+Ada, C, C++, Fortran, Obj-C, Obj-C++, OCaml		</td>
+		<td>
+<a href="https://github.com/Alexpux/MINGW-packages" class="urlextern" title="https://github.com/Alexpux/MINGW-packages" rel="nofollow">many</a>		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;" rowspan="6">
+  <strong><a href="/doku.php/download/ubuntu" class="media" title="download:ubuntu"><img src="/lib/exe/fetch.php/download/ubuntu-logo.png?w=32&amp;tok=33eec4" class="mediacenter" title="Ubuntu logo" alt="Ubuntu logo" width="32" /></a><a href="/doku.php/download/ubuntu" class="wikilink1" title="download:ubuntu"> Ubuntu</a></strong>		</td>
+		<td colspan="2">
+12.04 Precise Pangolin		</td>
+		<td>
+ 4.6.3/2.0.1		</td>
+		<td rowspan="6">
+Ada, C, C++, Fortran, Obj-C, Obj-C++, OCaml		</td>
+		<td rowspan="5">
+2 (nsis, gdb)		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+14.04 Trusty Tahr		</td>
+		<td>
+ 4.8.2/3.1.0		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+14.10 Utopic Unicorn		</td>
+		<td>
+ 4.9.1/3.1.0		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+15.04 Vivid Vervet		</td>
+		<td>
+ 4.9.2/3.2.0		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+15.10 Wily Werewolf		</td>
+		<td>
+ 4.9.2/4.0.2		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+16.04 Xenial Xerus		</td>
+		<td>
+ 5.3.1/4.0.4		</td>
+		<td>
+3 (nsis, gdb, zlib)		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center;">
+  <strong><a href="/doku.php/download/win-builds" class="media" title="download:win-builds"><img src="/lib/exe/fetch.php/download/win-builds-logo.png?w=32&amp;tok=3d1d62" class="mediacenter" title="Win-builds logo" alt="Win-builds logo" width="32" /></a><a href="/doku.php/download/win-builds" class="wikilink1" title="download:win-builds"> Win-Builds</a></strong>		</td>
+		<td>
+1.5		</td>
+		<td>
+Windows <img src="/lib/exe/fetch.php/download/windows-logo.jpg?w=24&amp;tok=c593de" class="media" title="Windows Logo" alt="Windows Logo" width="24" /><br/>
+Linux <img src="/lib/exe/fetch.php/download/tux.png?w=24&amp;tok=966719" class="media" title="Tux Logo" alt="Tux Logo" width="24" />		</td>
+		<td>
+4.8.3/3.3.0		</td>
+		<td>
+C, C++		</td>
+		<td>
+
+</div>
+<div class="plugin_include_content plugin_include__download:win-builds:list">
+<div class="level4">
+<div class="spoiler"><div class="title">91, full list</div><input type="button" value="Show" onClick="c = this.parentNode.getElementsByTagName('div')[1]; if (this.value == 'Show') { c.style.display = ''; this.value = 'Hide' } else { c.style.display = 'none'; this.value = 'Show' }" /><div class="content" style="display: none"><span style="font-size: 0.7em">SDL2, a52dec, atk, binutils, c-ares, ca-certificates, cairo, check, curl, dbus, dejavu-fonts-ttf, djvulibre, efl, elementary, expat, ffmpeg, flac, fontconfig, freetype, fribidi, gcc, gdb, gdk-pixbuf2, gendef, genidl, genpeimg, gettext, giflib, glib-networking, glib2, gmp, gnutls, gperf, gtk+2, harfbuzz, icu4c, jansson, json-c, lame, lcms, lcms2, libao, libarchive, libdvdcss, libdvdnav, libdvdread, libffi, libgcrypt, libgpg-error, libid3tag, libjpeg, libmad, libmangle, libmpc, libmpeg2, libogg, libpng, libsigc++, libsndfile, libsoup, libtasn1, libtheora, libtiff, libvorbis, libxml2, libxslt, lua, madplay, make, mingw-w64, mpfr, nettle, openjpeg, openssl, opus, pango, pcre, pixman, pkg-config, qt, sox, sqlite, wget, widl, win-iconv, windows_32, winpthreads, winstorecompat, x264, xz, zlib</span></div></div>
+</div>
+</div>
+<div class="level2">
+		</td>
+	</tr>
+	<tr>
+	</tr>
+</table>
+</div>
+
+</div>
+
+<h2 class="sectionedit9" id="sources">Sources</h2>
+<div class="level2">
+
+<p>
+Tarballs for the mingw-w64 sources are hosted on <a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/" class="urlextern" title="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/" rel="nofollow">SourceForge</a>.
+The latest version from the 6.x series is <strong><a href="https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v6.0.0.tar.bz2/download" class="urlextern" title="https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v6.0.0.tar.bz2/download" rel="nofollow">6.0.0</a></strong>.
+The latest version from the 5.x series is <strong><a href="https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v5.0.4.tar.bz2/download" class="urlextern" title="https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v5.0.4.tar.bz2/download" rel="nofollow">5.0.4</a></strong>.
+The latest version from the 4.x series is <strong><a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v4.0.6.tar.bz2/download" class="urlextern" title="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v4.0.6.tar.bz2/download" rel="nofollow">4.0.6</a></strong>.
+The latest version from the 3.x series is <strong><a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v3.3.0.tar.bz2/download" class="urlextern" title="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v3.3.0.tar.bz2/download" rel="nofollow">3.3.0</a></strong>. Winpthreads has been merged into the main tarball as of 3.1.0.
+</p>
+
+<p>
+The old wiki has instructions for building <a href="http://sourceforge.net/p/mingw-w64/wiki2/Native%20Win64%20compiler/" class="urlextern" title="http://sourceforge.net/p/mingw-w64/wiki2/Native%20Win64%20compiler/" rel="nofollow">native</a> and <a href="http://sourceforge.net/p/mingw-w64/wiki2/Cross%20Win32%20and%20Win64%20compiler/" class="urlextern" title="http://sourceforge.net/p/mingw-w64/wiki2/Cross%20Win32%20and%20Win64%20compiler/" rel="nofollow">cross</a> toolchains.
+</p>
+
+<p>
+Details on how to get the mingw-w64 code from Git and an Git-web viewer are available on <a href="https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/" class="urlextern" title="https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/" rel="nofollow">SourceForge</a>.
+</p>
+
+</div>
+
+<h2 class="sectionedit10" id="unsorted_complementary_list">Unsorted complementary list</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit11" id="darwinmac_os_x">Darwin/Mac OS X</h3>
+<div class="level3">
+
+<p>
+The existing Darwin binaries have been built through buildbot in 2013 and links to them can be found on the <a href="/doku.php/download/darwin" class="wikilink1" title="download:darwin">dedicated page</a>.
+</p>
+
+</div>
+
+<h3 class="sectionedit12" id="opensuse">OpenSUSE</h3>
+<div class="level3">
+
+<p>
+The <a href="http://mingw-w64.sourceforge.net/www.opensuse.org" class="urlextern" title="http://mingw-w64.sourceforge.net/www.opensuse.org" rel="nofollow">OpenSUSE Linux distribution</a> also has a large and well-maintained set of packages for cross-compilation.
+</p>
+
+</div>
+
+<h3 class="sectionedit13" id="rubenvb">Rubenvb</h3>
+<div class="level3">
+
+<p>
+Rubenvb has built a number of toolchains including some for less common setups. They are split into two categories: toolchains targeting <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/" class="urlextern" title="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/" rel="nofollow">Win32</a> or <a href="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/" class="urlextern" title="http://sf.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/" rel="nofollow">Win64</a>.
+</p>
+
+</div>
+
+<h3 class="sectionedit14" id="gcc_with_the_mcf_thread_model">GCC with the MCF thread model</h3>
+<div class="level3">
+
+<p>
+<a href="https://gcc-mcf.lhmouse.com/" class="urlextern" title="https://gcc-mcf.lhmouse.com/" rel="nofollow">GCC with the MCF thread model</a> is a series of x86 and x64 native toolchains built by LH_Mouse. The MCF thread model involves the <a href="https://github.com/lhmouse/mcfgthread/" class="urlextern" title="https://github.com/lhmouse/mcfgthread/" rel="nofollow">mcfgthread</a> library to provide minimum yet complete C++11 thread support. Disregarding POSIX or Windows XP compatibility, it implements (hopefully the most) efficient mutexes and condition variables that are competitive with even native slim reader/write (SRW) locks and condition variables since Windows Vista.
+</p>
+
+</div>
+
+<h3 class="sectionedit15" id="store_of_binaries_on_sourceforge">Store of binaries on SourceForge</h3>
+<div class="level3">
+
+<p>
+A very large number of other binaries and sources are hosted in the <a href="http://sf.net/projects/mingw-w64/files/" class="urlextern" title="http://sf.net/projects/mingw-w64/files/" rel="nofollow">File Release System on Sourceforge</a> which might have what you are after.
+</p>
+
+
+
+</div>
+
+
+                <!-- wikipage stop -->
+                </div>
+            </div></div>
+
+            <hr class="a11y" />
+
+            <!-- page actions -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Page Tools</h3>
+                <div class="tools">
+                    <ul>
+                        <li><a href="/doku.php/download?do=edit"  class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]"><span>Show pagesource</span></a></li><li><a href="/doku.php/download?do=revisions"  class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]"><span>Old revisions</span></a></li><li><a href="/doku.php/download?do=backlink"  class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <nav class="footer_actions_left">[&#160;<a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]">Back to top</a>&#160;|&#160;<a href="/doku.php/download?do=index"  class="action index" accesskey="x" rel="nofollow" title="Sitemap [X]">Sitemap</a>&#160;]</nav>
+
+            <nav class="footer_actions_right">[&#160;<a href="/doku.php/download?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a>&#160;]</nav>
+            <div class="clearer"></div>
+            <div class="licence"><div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" class="urlextern">CC Attribution-Share Alike 4.0 International</a></bdi></div></div>
+            
+        </footer>
+    </div></div>
+
+    <div class="no"><img src="/lib/exe/indexer.php?id=download&amp;1614709579" width="2" height="1" alt="" /></div>
+    <div id="screen__mode" class="no"></div>    <!--[if ( lte IE 7 | IE 8 ) ]></div><![endif]-->
+</body>
+</html>
