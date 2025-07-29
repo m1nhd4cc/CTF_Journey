@@ -1,0 +1,1 @@
+tshark -r traffic.pcap -T fields -e data.data -Y 'icmp' | xargs -I{} printf "\\x{}"; echo
