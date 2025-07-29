@@ -1,0 +1,8 @@
+services:
+  app:
+    build: ./
+    restart: always
+    volumes:
+      - ./flag:/flag:ro,Z
+    ports:
+      - 12001:12001
