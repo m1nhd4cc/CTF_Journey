@@ -1,0 +1,2 @@
+!!! THERE IS A CUSTOM FLAG FORMAT FOR THIS CHALLENGE: BTSCTF<...> !!!
+Recently, I was cleaning my attic and found my dad's old computer with a disk containing an encrypted message and a decryption code. However, for decryption to happen, a passkey is required, but no one can remember what the key was. Here is a copy of that disk. Hope you can find the correct passphrase.

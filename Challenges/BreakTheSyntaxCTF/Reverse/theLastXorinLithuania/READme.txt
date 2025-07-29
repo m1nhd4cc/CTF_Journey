@@ -1,0 +1,1 @@
+An enigmatic binary has been discovered within Lithuania's borderlands. Hidden within its cryptic structure lies a polish literary treasure. Can you navigate this mysterious artifact and reveal the message?
