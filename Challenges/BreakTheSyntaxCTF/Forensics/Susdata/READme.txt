@@ -1,0 +1,1 @@
+We caught the suspect, but his pendrive contained only this data. What could it be?
