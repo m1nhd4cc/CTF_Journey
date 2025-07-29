@@ -1,0 +1,1 @@
+Little Timmy has been experimenting with home automation! He has some ESP32-C6 Zigbee devices and put an important flag in the firmware. He has since lost the flag and is having a hard time finding it in the source, can you get it for him?
