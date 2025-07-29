@@ -1,0 +1,174 @@
+# Regen F
+for i in range(m):
+    cur = []
+    for j in range(n):
+        cur.append([])
+        for k in range(n):
+            cur[-1].append(sha256(gen_seed).digest()[0] % q)
+            gen_seed = sha256(gen_seed).digest()
+    F.append(matrix(FF, n, n, cur))
+
+
+# Regen F
+for i in range(m):
+Dòng 1: Bình luận chỉ ra rằng đoạn mã này sẽ "tái tạo" (regen) danh sách F.
+Dòng 2: Bắt đầu vòng lặp bên ngoài qua m, với m là số lượng ma trận mà chúng ta muốn tạo (trong trường hợp này, m đã được định nghĩa trước là 100).
+
+    cur = []
+Dòng 3: Khởi tạo danh sách rỗng cur, nơi này sẽ lưu trữ các hàng của ma trận hiện tại.
+
+    for j in range(n):
+Dòng 4: Bắt đầu vòng lặp bên trong qua n, với n là kích thước của một chiều của ma trận (trong trường hợp này, n cũng đã được định nghĩa trước là 100).
+
+        cur.append([])
+Dòng 5: Thêm một danh sách rỗng vào cur để lưu trữ các phần tử của hàng hiện tại.
+
+        for k in range(n):
+Dòng 6: Bắt đầu vòng lặp thứ ba qua n để tạo ra các cột cho hàng hiện tại.
+
+            cur[-1].append(sha256(gen_seed).digest()[0] % q)
+Dòng 7: Tính toán giá trị mới bằng cách băm gen_seed bằng thuật toán SHA-256, lấy giá trị băm (digest), và chọn byte đầu tiên (digest()[0]). Sau đó, giá trị này được lấy phần dư khi chia cho q (trong trường hợp này là 7). Giá trị này được thêm vào hàng hiện tại (danh sách cuối cùng trong cur).
+
+            gen_seed = sha256(gen_seed).digest()
+Dòng 8: Cập nhật gen_seed bằng cách băm giá trị hiện tại của gen_seed. Điều này sẽ tạo ra một giá trị mới cho lần lặp tiếp theo, đảm bảo rằng các giá trị trong ma trận sẽ khác nhau.
+
+    F.append(matrix(FF, n, n, cur))
+Dòng 9: Sau khi tạo xong một hàng với n phần tử, đoạn mã này sẽ tạo ra một ma trận từ danh sách cur trong trường Galois FF (GF(q)). Ma trận này có kích thước n x n và được thêm vào danh sách F.
+
+
+
+
+
+
+
+
+
+for i in range(len(coms)):
+    com, tas, verif = coms[i], tass[i], verifs[i]
+    a = sha256(bytes([int(i) for i in com + v + verif])).digest()[0] % q
+    if a != 0:
+        continue
+
+    t = matrix(FF, tas)
+    lhs =  []
+    for j in range(n):
+        lhs.append((t * (F[j] + F[j].T)).list())
+    lhs = matrix(FF, lhs)
+    rhs = matrix(FF, verif)
+
+    s = lhs.solve_right(rhs.T).T
+    if lhs.right_nullity() == 0:
+        print(f'Recovered secret key: {s = }')
+        key = sha256(str([int(i) for i in s.list()]).encode()).digest()
+        cipher = AES.new(key, AES.MODE_CBC, iv)
+        flag = cipher.decrypt(ct)
+        flag = unpad(flag, 16).decode()
+        print(f'{flag = }')
+    else:
+        row = lhs.right_kernel_matrix()
+        for i in range(q):
+            tmp = s + i * row
+            key = sha256(str([int(i) for i in tmp.list()]).encode()).digest()
+            cipher = AES.new(key, AES.MODE_CBC, iv)
+            flag = cipher.decrypt(ct)
+            if b'ASCIS' in flag:
+                print(f'Recovered secret key: {s = }')
+                flag = unpad(flag, 16).decode()
+                print(f'{flag = }')
+                break
+
+
+
+Đoạn mã này thực hiện việc duyệt qua các bộ ba (triplet) gồm com, tas, và verif, để tính toán và khôi phục khóa bí mật, sau đó sử dụng khóa đó để giải mã dữ liệu. Dưới đây là giải thích chi tiết cho từng phần trong đoạn mã:
+
+
+for i in range(len(coms)):
+Dòng 1: Bắt đầu một vòng lặp qua tất cả các phần tử trong danh sách coms, tas, và verifs. Biến i sẽ là chỉ số cho từng phần tử.
+
+    com, tas, verif = coms[i], tass[i], verifs[i]
+Dòng 2: Gán giá trị của phần tử thứ i từ các danh sách coms, tass, và verifs cho các biến tương ứng com, tas, và verif.
+
+    a = sha256(bytes([int(i) for i in com + v + verif])).digest()[0] % q
+Dòng 3: Tính toán giá trị a bằng cách:
+Kết hợp com, một biến nào đó v (có thể là một danh sách hoặc giá trị được định nghĩa trước), và verif thành một danh sách các byte.
+Băm danh sách này bằng SHA-256, lấy digest và chọn byte đầu tiên (digest()[0]).
+Sau đó, lấy phần dư khi chia cho q (trong trường hợp này là 7).
+
+    if a != 0:
+        continue
+Dòng 4-5: Nếu a không bằng 0, mã sẽ bỏ qua phần còn lại của vòng lặp và tiếp tục với chỉ số tiếp theo.
+
+    t = matrix(FF, tas)
+Dòng 6: Tạo ma trận t từ danh sách tas trong trường Galois FF.
+
+    lhs =  []
+Dòng 7: Khởi tạo danh sách rỗng lhs, nơi sẽ lưu trữ các phương trình trong hệ phương trình tuyến tính.
+
+    for j in range(n):
+        lhs.append((t * (F[j] + F[j].T)).list())
+Dòng 8-9: Bắt đầu một vòng lặp qua n và thêm vào danh sách lhs một danh sách các kết quả của phép nhân ma trận:
+F[j] là ma trận thứ j trong danh sách F.
+F[j].T là chuyển vị của ma trận F[j].
+Phép nhân t * (F[j] + F[j].T) sẽ tạo ra một danh sách các giá trị cho mỗi j.
+
+    lhs = matrix(FF, lhs)
+Dòng 10: Chuyển đổi danh sách lhs thành một ma trận trong trường Galois FF.
+
+    rhs = matrix(FF, verif)
+Dòng 11: Tạo ma trận rhs từ verif trong trường Galois FF.
+
+    s = lhs.solve_right(rhs.T).T
+Dòng 12: Giải hệ phương trình tuyến tính lhs * s = rhs, và lưu nghiệm vào s. Phép giải này xảy ra trong trường Galois.
+
+    if lhs.right_nullity() == 0:
+Dòng 13: Kiểm tra nếu số chiều của không gian null bên phải của ma trận lhs bằng 0. Điều này có nghĩa là hệ phương trình có nghiệm duy nhất.
+
+        print(f'Recovered secret key: {s = }')
+Dòng 14: In ra khóa bí mật đã khôi phục.
+
+        key = sha256(str([int(i) for i in s.list()]).encode()).digest()
+Dòng 15: Tính toán khóa mã hóa bằng cách chuyển đổi s thành danh sách các số nguyên, sau đó băm bằng SHA-256.
+
+        cipher = AES.new(key, AES.MODE_CBC, iv)
+Dòng 16: Tạo một đối tượng mã hóa AES với khóa đã tính toán, chế độ CBC (Cipher Block Chaining), và một giá trị khởi tạo (IV).
+
+        flag = cipher.decrypt(ct)
+Dòng 17: Giải mã dữ liệu đã được mã hóa (có thể là cờ) bằng phương thức giải mã của đối tượng cipher.
+
+        flag = unpad(flag, 16).decode()
+Dòng 18: Loại bỏ padding từ dữ liệu giải mã (độ dài padding là 16 byte) và chuyển đổi nó thành chuỗi ký tự.
+
+        print(f'{flag = }')
+Dòng 19: In ra cờ đã giải mã.
+
+    else:
+        row = lhs.right_kernel_matrix()
+Dòng 20: Nếu số chiều không gian null bên phải không bằng 0, lấy ma trận của không gian kernel bên phải.
+
+        for i in range(q):
+            tmp = s + i * row
+Dòng 21-22: Bắt đầu một vòng lặp qua các giá trị từ 0 đến q-1. Trong mỗi vòng lặp, một giá trị tạm tmp được tính bằng cách cộng s với i nhân với ma trận row.
+
+            key = sha256(str([int(i) for i in tmp.list()]).encode()).digest()
+Dòng 23: Tính toán khóa mã hóa từ giá trị tmp, tương tự như đã làm với s.
+
+            cipher = AES.new(key, AES.MODE_CBC, iv)
+Dòng 24: Tạo một đối tượng mã hóa AES mới với khóa key đã tính toán.
+
+            flag = cipher.decrypt(ct)
+Dòng 25: Giải mã dữ liệu mã hóa ct.
+
+            if b'ASCIS' in flag:
+Dòng 26: Kiểm tra xem chuỗi "ASCIS" có trong dữ liệu giải mã không (có thể là một tín hiệu cho biết flag đã được tìm thấy).
+
+                print(f'Recovered secret key: {s = }')
+Dòng 27: In ra khóa bí mật đã khôi phục.
+
+                flag = unpad(flag, 16).decode()
+Dòng 28: Loại bỏ padding và chuyển đổi flag thành chuỗi ký tự.
+
+                print(f'{flag = }')
+Dòng 29: In ra flag đã giải mã.
+
+                break
+Dòng 30: Thoát khỏi vòng lặp khi flag đã được tìm thấy.
