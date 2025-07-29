@@ -1,0 +1,1 @@
+We managed to sniff some traffic from a TLS connection. The pcap traffic is encrypted, but set up keylog and have the private key of the server. Can you help us decrypt it to find out what the server is sending to the client? We also managed to obtain some other files which may render helpful. 
