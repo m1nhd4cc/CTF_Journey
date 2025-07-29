@@ -1,0 +1,12 @@
+file.docm là file mã độc, không chạy trên máy thật (để trong máy ảo mục download)
+
+các kỹ thuật được sử dụng trong chall này là 
+
+* Phân tích VBA Script
+Kỹ năng đọc và phân tích mã VBA Macro
+Hiểu cách VBA script được nhúng và thực thi
+
+* RC4 Stream Cipher:
+Hiểu về stream cipher
+Implement KSA và PRGA
+Xử lý key và keystream
