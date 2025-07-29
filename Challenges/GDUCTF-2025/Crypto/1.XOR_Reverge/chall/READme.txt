@@ -1,0 +1,1 @@
+Một chuỗi string được mã hóa nhiều lớp.... Và một con vịt "duck" đang giữ chìa khóa?

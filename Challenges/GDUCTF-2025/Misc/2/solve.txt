@@ -1,0 +1,2 @@
+Dùng Audacity
+Upload file, chuột phải vào Effects chọn Spectrogram

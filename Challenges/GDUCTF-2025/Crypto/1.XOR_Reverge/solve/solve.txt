@@ -1,0 +1,6 @@
+1. Decode the Base32 string
+2. Use dCode Cipher Identifier "https://www.dcode.fr/cipher-identifier" to identify the cipher used. The result is a ROT47 cipher.
+3. Decode the string using ROT47 cipher. The result is a Base64 string.
+4. Decode the Base64 string. The result is a gibberish string.
+5. Find the pattern in the gibberish string use XOR with the flag format CIT{. It will reveal the key used to XOR the string, which is "duck"
+6. Use the key to XOR the gibberish string.

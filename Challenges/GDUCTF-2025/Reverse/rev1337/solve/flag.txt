@@ -1,0 +1,3 @@
+https://github.com/muha2xmad/Challenges/blob/main/cyberdefenders_re101/2022-07-17-cyberdefenders_re101.md
+
+CTF{malwar3_3ncryp710n_15_Sh17}
