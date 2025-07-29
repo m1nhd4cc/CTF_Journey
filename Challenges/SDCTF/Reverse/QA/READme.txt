@@ -1,0 +1,3 @@
+Here at the flag factory, we like to make sure our flags are correct. A few months ago, our QA team have developed an advanced flag examination software, but it has seen little use due to a recent drop in customers. We are releasing its source code to the public to evade tariffs as we move our factory outside of China.
+
+To ensure the TSA have not hijacked our software, you may use this checksum to ensure its integrity.
