@@ -1,0 +1,8 @@
+filter smtp trong pcap rồi follow tìm được các packet có chứa 15 part của 1 quyển sách pdf. cat 15 part đó lại thành 1 file pdf là đọc được-> có được flag
+
+format để echo:
+echo "......" | base64 -d > decoded_attachment.zip
+
+.... là phần cần decode
+và cần passwd để giải nén nó:
+unzip -P "passwd" decoded_attachment.zip
