@@ -1,1 +1,0 @@
-The flag is SK-CERT{th1s-w0rks-w3ll}. This first part is easy.
