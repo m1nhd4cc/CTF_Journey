@@ -1,0 +1,5 @@
+ ProofOfSoul
+500
+
+A mysterious attacker, known as 'The Nullifier,' has breached the Proof of Soul system. By exploiting a critical access control vulnerability, The Nullifier altered a soul's memory, overwriting it with a fabricated message. Traces of the attack remain, hidden deep within the blockchain's data.
+http://188.166.230.122:22001 
